@@ -1,24 +1,9 @@
-# S-function
-Sine function
-//MATLAB 正弦函数
-x1=1:1:10
-y1=6:1:16
-s=fun(x1,y1)
-function s=fun(x,y)
- xp=(x,0);
- yp=(0,y);
- zp^2=x^2+y^2;
- s=x/zp;
-end 
-//C语言  正弦函数
-void main()
-{
-  int x;
-  int y;
-  scanf("%d%d",&i,&y)
-  int z;
-  z^2=x^2+y^2;
-  s=x/z;
-  prinf("s=%f\n",s);
-  return 0;
-}
+三角函数软件工程项目
+=
+编写软件：python
+--
+### 界面
+* (1)界面有一个黄色输入框和一个灰色输出框，分别用于三角函数变量的输入和值的输出。
+* (2)界面有四个按钮，分别为sin，cos,tan,cot，点击四个按钮可以分别计算对应三角函数的值。
+### 后台
+
